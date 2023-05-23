@@ -1,0 +1,27 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "applicationinsights:ListLogPatternSets",
+                "applicationinsights:DescribeApplication",
+                "applicationinsights:DescribeProblem",
+                "applicationinsights:ListConfigurationHistory",
+                "applicationinsights:ListTagsForResource",
+                "applicationinsights:DescribeComponentConfiguration",
+                "applicationinsights:DescribeObservation",
+                "applicationinsights:ListApplications",
+                "applicationinsights:DescribeLogPattern",
+                "applicationinsights:DescribeProblemObservations",
+                "applicationinsights:DescribeComponentConfigurationRecommendation",
+                "applicationinsights:ListProblems",
+                "applicationinsights:DescribeComponent",
+                "applicationinsights:ListComponents",
+                "applicationinsights:ListLogPatterns"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
