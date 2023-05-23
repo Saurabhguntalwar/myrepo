@@ -1,0 +1,61 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListRoleTags",
+                "iam:ListGroupPolicies",
+                "iam:ListPoliciesGrantingServiceAccess",
+                "iam:ListEntitiesForPolicy",
+                "iam:ListInstanceProfileTags",
+                "iam:ListServiceSpecificCredentials",
+                "iam:ListUserPolicies",
+                "iam:ListMFADevices",
+                "iam:ListSigningCertificates",
+                "iam:ListInstanceProfiles",
+                "iam:ListInstanceProfilesForRole",
+                "iam:ListSSHPublicKeys",
+                "iam:ListPolicyVersions",
+                "iam:ListGroupsForUser",
+                "iam:ListAttachedRolePolicies",
+                "iam:ListSAMLProviderTags",
+                "iam:ListAttachedUserPolicies",
+                "iam:ListAttachedGroupPolicies",
+                "iam:ListPolicyTags",
+                "iam:ListRolePolicies",
+                "iam:GetLoginProfile",
+                "iam:ListUserTags",
+                "iam:ListAccessKeys"
+            ],
+            "Resource": [
+                "arn:aws:iam::334594060181:saml-provider/*",
+                "arn:aws:iam::334594060181:user/*",
+                "arn:aws:iam::334594060181:instance-profile/*",
+                "arn:aws:iam::334594060181:policy/*",
+                "arn:aws:iam::334594060181:group/*",
+                "arn:aws:iam::334594060181:role/*"
+            ]
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "iam:ListPolicies",
+                "iam:ListSAMLProviders",
+                "iam:ListOpenIDConnectProviders",
+                "iam:ListServerCertificates",
+                "iam:ListCloudFrontPublicKeys",
+                "iam:ListAccountAliases",
+                "iam:ListRoles",
+                "iam:ListUsers",
+                "iam:ListGroups",
+                "iam:ListSTSRegionalEndpointsStatus",
+                "iam:ListVirtualMFADevices",
+                "iam:GetAccountSummary"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
