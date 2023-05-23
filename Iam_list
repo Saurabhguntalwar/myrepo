@@ -1,0 +1,23 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "iam:GenerateCredentialReport",
+                "iam:GenerateOrganizationsAccessReport",
+                "iam:ListCloudFrontPublicKeys",
+                "iam:ListAttachedUserPolicies",
+                "iam:ListAccountAliases",
+                "iam:ListUserPolicies",
+                "iam:ListGroups",
+                "iam:GetAccountAuthorizationDetails",
+                "iam:ListSigningCertificates",
+                "iam:ListVirtualMFADevices",
+                "iam:GetAccountSummary"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
