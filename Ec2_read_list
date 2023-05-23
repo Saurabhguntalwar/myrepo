@@ -1,0 +1,25 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ec2:GetVerifiedAccessGroupPolicy",
+                "ec2:DescribeIamInstanceProfileAssociations",
+                "ec2:DescribeAggregateIdFormat",
+                "ec2:ExportClientVpnClientConfiguration",
+                "ec2:DescribeBundleTasks",
+                "ec2:DescribeNetworkInsightsAnalyses",
+                "ec2:DescribeNetworkInsightsPaths",
+                "ec2:GetConsoleOutput",
+                "ec2:DescribeHosts",
+                "ec2:ExportClientVpnClientCertificateRevocationList",
+                "ec2:DescribeAccountAttributes",
+                "ec2:GetAwsNetworkPerformanceData",
+                "ec2:GetTransitGatewayRouteTableAssociations"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
