@@ -1,0 +1,24 @@
+create 2 instane instance1 and instance2 
+stop instance2
+delete instance 2 .pem key
+go EBS: volume and select instance 2 and go to action and select detach volume 
+copy public ip instance 1
+take ssh on ubuntu of instance 1
+select instance 2 in volume section and click on action go to attach volume
+instance select instance 1 select attach 
+go to ubuntu 
+type cmd lsblk 
+see xvdf partion 
+type mkdir -p /var/recovery-disk
+type cmd mount -o NOuid /dev/xvdf1 /var/recovery-disk 
+tpye cmd df-hT
+type cat/home/ec2-user/.ssh/ authorised key >> /var/recovery-disk/home/ec2-user/.ssh/authorised_key
+type unmount /var/recovery-disk
+type cmd df-hT
+go volume in instance2 and select
+click ation 
+.detach the volume and click action
+then attach volume instance  and select instance2 and start instance 
+copy public ip  go to ubuntu and paste public ip in hostname 
+take ssh  using new key pair of instance2
+type cmd ls
